@@ -1,12 +1,12 @@
 const express = require("express");
-const { signup, login } = require("../controller/authController");
+const { signup, login } = require("../controllers/authController");
 const { check } = require("express-validator");
 const {
   getAllUser,
   getUserById,
   deleteUserById,
   updateUserById,
-} = require("../controller/userController");
+} = require("../controllers/userController");
 const { validatorUpdate } = require("../utils/user");
 
 const userRouter = express.Router();
