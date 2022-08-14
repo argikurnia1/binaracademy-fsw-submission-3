@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binar Challenge</title>
+    <meta name="title" content="Binaracademy Challenge, Game Traditional">
+    <meta name="keywords" content="Binaracademy Challenge, Binaracademy Challenge Chapter {{ chapterNumber }} - Game Traditional">
+    <meta name="description" content="Binaracademy Challenge Chapter {{ chapterNumber }} Created By Argi Kurnia">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Binaracademy Challenge, Game Traditional">
+    <meta name=" og:description" content="Binaracademy Challenge Chapter {{ chapterNumber }} Created By Argi Kurnia">
+    <link rel="icon" href="/assets/game-icon.svg">
+    {{#if css}}
+    {{#each css}}
+    <link rel="stylesheet" href={{this}}>  
+    {{/each}}
+    {{/if}}
+    
+    {{#if links }}
+    {{#each links}}
+    <link href={{href}} rel="stylesheet"
+        integrity={{integrity}} crossorigin={{crossorigin}}>
+    {{/each}}
+    {{/if}}
+
+    {{#if js}}
+    <script defer src={{js}}></script>
+    {{/if}}
+</head>
+
+{{{body}}}
+
+{{#if scripts}}
+{{#each scripts}}
+   <script src={{src}} integrity={{integrity}} crossorigin={{crossorigin}}></script>
+{{/each}}
+{{/if}}
+</body>
+
+</html>

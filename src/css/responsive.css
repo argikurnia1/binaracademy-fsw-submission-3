@@ -1,0 +1,334 @@
+/* Extra Large Breakpoint */
+@media (max-width: 1200px) {
+  /* Global */
+  .heading-4 {
+    font-size: 1.25rem;
+  }
+  /* Main */
+
+  /* Hero Section*/
+  .hero-intro {
+    margin-top: 14rem;
+    row-gap: 2.5rem;
+  }
+}
+
+/* Large Breakpoint*/
+@media (max-width: 992px) {
+  /* Global */
+  .heading-1 {
+    text-align: center;
+  }
+
+  .heading-4 {
+    font-size: 1.25rem;
+  }
+
+  .heading-5 {
+    font-size: 0.75rem;
+  }
+
+  /* Navbar */
+  .nav-right {
+    display: none;
+  }
+
+  .nav-desktop {
+    justify-content: space-between;
+  }
+
+  .hamburger-mobile {
+    display: flex;
+    color: var(--color2);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .nav-mobile {
+    background-color: #332e38;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    z-index: 101;
+    width: 75vw;
+    height: 100vh;
+    left: -100%;
+    transition: left 350ms ease-in-out;
+  }
+
+  .nav-mobile__active {
+    left: 0;
+  }
+
+  .nav-mobile__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom: 1px solid var(--color2);
+    height: 5.75rem;
+  }
+
+  .nav-mobile__top .nav-logo__mobile {
+    display: flex;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color2);
+    letter-spacing: 3px;
+  }
+
+  .nav-mobile__top .nav-mobile__close {
+    width: 30px;
+    height: 30px;
+    color: var(--color2);
+  }
+
+  .nav-mobile ul {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    row-gap: 1rem;
+  }
+
+  .nav-mobile .nav-anchor {
+    font-size: 1rem;
+  }
+
+  /* Main */
+
+  /* Hero Section */
+  .hero-intro .heading-4 {
+    text-align: center;
+  }
+
+  .action-story {
+    margin-bottom: 4rem;
+  }
+
+  /* Games Section */
+  .games-intro .heading-3 span {
+    font-size: 1.25rem;
+  }
+
+  /* Features Section */
+  .features-bg {
+    background-position: left;
+  }
+
+  .features-intro .heading-3 span {
+    font-size: 1.25rem;
+  }
+
+  .all-features p {
+    font-size: 1rem;
+  }
+
+  /* System Requirements Section*/
+  .sr-content p {
+    font-size: 1rem;
+  }
+
+  /* Tops Score Section */
+  .tops p {
+    font-size: 1rem;
+  }
+
+  .tops-left {
+    text-align: center;
+  }
+
+  /* Newsletter section */
+  .container-newsletter .row {
+    justify-content: center;
+  }
+
+  .newsletter-left {
+    text-align: center;
+  }
+
+  .container-newsletter img[alt="newsletter-img"] {
+    width: 40%;
+  }
+
+  .newsletter-right .heading-2 {
+    line-height: 48px;
+  }
+
+  .newsletter-right > p {
+    font-size: 1rem;
+  }
+
+  .newsletter-right form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  .newsletter-right form button {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    padding: 1.25rem 0;
+  }
+
+  /* Footer */
+
+  .container-footer ul {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .container-footer .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1rem;
+  }
+
+  .container-footer .footer-bottom div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Medium Breakpoint */
+@media (max-width: 768px) {
+  /* Global */
+  .heading-4 {
+    font-size: 1.125rem;
+  }
+
+  .heading-5 {
+    font-size: 0.625rem;
+  }
+
+  /* Main */
+
+  /* Hero Section */
+  .hero-intro a {
+    font-size: 0.875rem;
+    padding: 1.125rem 4rem;
+  }
+
+  /* Games Section*/
+
+  .games-bg {
+    height: 45rem;
+  }
+  .games-intro .heading-3 span {
+    font-size: 1rem;
+  }
+
+  /* Features Section */
+  .features-intro .heading-3 span {
+    font-size: 1rem;
+  }
+
+  .all-features p {
+    font-size: 0.875rem;
+  }
+
+  /* System Requirements Section */
+  .sr-content p {
+    font-size: 0.875rem;
+  }
+
+  /* Tops Score Section */
+  .tops p {
+    font-size: 0.875rem;
+  }
+
+  .tops-intro a {
+    font-size: 0.875rem;
+    padding: 1.125rem 4rem;
+  }
+
+  /* Newsletter section */
+  .newsletter-right > p {
+    font-size: 0.875rem;
+  }
+
+  .newsletter-right form button {
+    font-size: 0.875rem;
+  }
+
+  /* Footer */
+  .footer-top ul > div:nth-child(1) {
+    flex-direction: column;
+    row-gap: 0.75rem;
+  }
+}
+
+/* Small Breakpoint */
+@media (max-width: 576px) {
+  /* Global */
+  .heading-4 {
+    font-size: 1rem;
+  }
+
+  /* Main */
+
+  /* Hero Section */
+  .hero-intro a {
+    font-size: 0.75rem;
+    padding: 1rem 3.5rem;
+  }
+
+  /* Games Section*/
+  .games-bg {
+    height: 40rem;
+  }
+
+  .games-intro .heading-3 span {
+    font-size: 0.75rem;
+  }
+
+  /* Features Section */
+  .features-intro .heading-3 span {
+    font-size: 0.75rem;
+  }
+
+  .all-features p {
+    font-size: 0.75rem;
+  }
+
+  /* System Requirements Section */
+  .sr-content p {
+    font-size: 0.75rem;
+  }
+
+  /* Tops Score Section */
+  .tops p {
+    font-size: 0.75rem;
+  }
+
+  .tops-intro a {
+    font-size: 0.75rem;
+    padding: 1rem 3.5rem;
+  }
+
+  .tops-right .card-body span {
+    font-size: 0.625rem;
+  }
+
+  /* Newsletter section */
+  .newsletter-right > p {
+    font-size: 0.75rem;
+  }
+
+  .newsletter-right form p {
+    font-size: 0.75rem;
+  }
+
+  .newsletter-right form button {
+    font-size: 0.75rem;
+  }
+
+  /* Footer */
+}

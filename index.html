@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binar Challenge</title>
+    <meta name="title" content="Binaracademy Challenge, Game Traditional">
+    <meta name="keywords" content="Binaracademy Challenge, Binaracademy Challenge Chapter 3 - Game Traditional">
+    <meta name="description" content="Binaracademy Challenge Chapter 3 Created By Argi Kurnia">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Binaracademy Challenge, Game Traditional">
+    <meta name=" og:description" content="Binaracademy Challenge Chapter 3 Created By Argi Kurnia">
+    <link rel="icon" href="./src/assets/game-icon.svg">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script defer src="./src/js/index.js"></script>
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <!-- Start Navbar -->
+    <!-- Start Navbar Desktop -->
+    <header class="header-desktop">
+        <nav class="nav-desktop container">
+            <div class="nav-left">
+                <a href="/" class="nav-logo">LOGO</a>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li>
+                        <a href="#home" class="nav-anchor">
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#work" class="nav-anchor">
+                            WORK
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-anchor">
+                            CONTACT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-anchor">
+                            ABOUT ME
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#home" class="nav-anchor">
+                            SIGN UP
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#home  " class="nav-anchor">
+                            LOGIN
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger-mobile">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+        </nav>
+    </header>
+    <!-- End Navbar Desktop -->
+
+    <!-- Start Navbar Mobile -->
+    <nav class="nav-mobile">
+        <div class="nav-mobile__top">
+            <div class="nav-mobile__logo">
+                <a href="/" class="nav-logo__mobile">LOGO</a>
+            </div>
+
+            <div class="nav-mobile__close">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>
+        </div>
+
+        <ul>
+            <li>
+                <a href="#home" class="nav-anchor">
+                    HOME
+                </a>
+            </li>
+            <li>
+                <a href="#work" class="nav-anchor">
+                    WORK
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-anchor">
+                    CONTACT
+                </a>
+            </li>
+            <li>
+                <a href="#about" class="nav-anchor">
+                    ABOUT ME
+                </a>
+            </li>
+            <li>
+                <a href="#home" class="nav-anchor">
+                    SIGN UP
+                </a>
+            </li>
+            <li>
+                <a href="#home  " class="nav-anchor">
+                    LOGIN
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- End Navbar Mobile -->
+
+    <!-- End Navbar -->
+
+
+    <!-- Start Main -->
+    <main>
+        <!-- Start Hero -->
+        <article class="hero hero-bg" id="home">
+            <div class="container container-hero">
+                <div class="hero-intro">
+                    <h1 class="heading-1">PLAY TRADITIONAL GAME</h1>
+                    <h4 class="heading-4">Experience new traditional game play</h4>
+                    <a href="./games.html">
+                        PLAY NOW
+                    </a>
+                </div>
+
+                <div class="action-story">
+                    <a href="#story">
+                        THE STORY
+                        <i class="bi bi-caret-down"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <!-- End Hero -->
+
+        <!-- Start The Games -->
+        <article class="games games-bg" id="story">
+            <div class="container container-games">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="games-intro">
+                            <h3 class="heading-3"><span>What's so special?</span> <br>
+                                THE GAMES
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div id="carouselGameOptions" class="carousel slide" data-bs-ride="carousel">
+                            <ul class="carousel-indicators">
+                                <li data-bs-target="#carouselGameOptions" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></li>
+                                <li data-bs-target="#carouselGameOptions" data-bs-slide-to="1" aria-label="Slide 2">
+                                </li>
+                                <li data-bs-target="#carouselGameOptions" data-bs-slide-to="2" aria-label="Slide 3">
+                                </li>
+                                <li data-bs-target="#carouselGameOptions" data-bs-slide-to="3" aria-label="Slide 4">
+                                </li>
+                                <li data-bs-target="#carouselGameOptions" data-bs-slide-to="4" aria-label="Slide 5">
+                                </li>
+                            </ul>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./src/assets/rockpaperstrategy-1600.png" class="d-block w-75"
+                                        alt="Slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./src/assets/rockpaperstrategy-1600.png" class="d-block w-75"
+                                        alt="Slide 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./src/assets/rockpaperstrategy-1600.png" class="d-block w-75"
+                                        alt="Slide 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./src/assets/rockpaperstrategy-1600.png" class="d-block w-75"
+                                        alt="Slide 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./src/assets/rockpaperstrategy-1600.png" class="d-block w-75"
+                                        alt="Slide 5">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGameOptions"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselGameOptions"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- End The Games -->
+
+
+        <!-- Start Features -->
+        <article class="features features-bg" id="work">
+            <div class="container container-features">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="features-intro">
+                        <h3 class="heading-3">
+                            <span>What's so special?</span> <br>
+                            FEATURES
+                    </div>
+                    <div class="all-features">
+                        <div class="traditional-games">
+                            <div>
+                                <div class="circle"></div>
+                                <div class="line"></div>
+                            </div>
+                            <div>
+                                <h4 class="heading-4">TRADTIONAL GAMES</h4>
+                                <p class="paragraph">If you miss your childhood, we provide <br> many traditional
+                                    games here</p>
+                            </div>
+                        </div>
+                        <div class="game-suit">
+                            <div class="circle"></div>
+                            <div>
+                                <h4 class="heading-4">GAME SUIT</h4>
+                            </div>
+                        </div>
+                        <div class="tbd">
+                            <div class="circle"></div>
+                            <div>
+                                <h4 class="heading-4">TBD</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- End Features -->
+
+
+        <!-- Start System Requirements -->
+        <article class="sr sr-bg" id="system">
+            <div class="container container-sr">
+                <div class="sr-intro">
+                    <h5 class="heading-5">Can My Computer Run this game?</h5>
+                </div>
+
+                <div class="sr-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3 class="heading-3">SYSTEM <br> REQUIREMENTS</h3>
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h4 class="heading-4">OS:</h4>
+                                            <p class="paragraph">
+                                                Windows 7 64-bit only<br>(No OSX support at this time)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <h4 class="heading-4">PROCESSOR:</h4>
+                                            <p class="paragraph">Intel Core 2 Duo @2.4GHz or AMD Athlon X2 @ 2.8GHz</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h4 class="heading-4">MEMORY:</h4>
+                                            <p class="paragraph">4 GB RAM</p>
+                                        </td>
+                                        <td>
+                                            <h4 class="heading-4">STORAGE:</h4>
+                                            <p class="paragraph">8 GB available space</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <h4 class="heading-4">GRAPHICS:</h4>
+                                            <p class="paragraph">
+                                                NVIDIA GeForce GTX 660 2GB or <br>AMD Radeon HD 7850 2GB
+                                                DirectX11 (Shader Model S)
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- End System Requirements -->
+
+        <!-- Start Tops Scores -->
+        <article class="tops tops-bg" id="topscores">
+            <div class="container container-tops">
+                <div class="row">
+                    <!-- Tops Left -->
+                    <div class="col-lg-4 tops-left">
+                        <div class="tops-intro">
+                            <h3 class="heading-3">TOP SCORES</h3>
+                            <p class="paragraph">This top score from various games provided on this platform</p>
+                            <a href="#see-more">see more</a>
+                        </div>
+                    </div>
+
+                    <!-- Tops Right -->
+                    <div class="col-lg-8 tops-right">
+                        <div class="row justify-content-sm-center justify-content-lg-start">
+                            <div class="col-lg-6 col-md-8 col-sm-12 offset-lg-4">
+                                <div class="card bg-dark">
+                                    <div class="card-header">
+                                        <div class="card-content">
+                                            <img class="profile-pic" src="./src/assets/person-1.png" alt="person 1">
+                                            <div class="card-content__text">
+                                                <h4 class="heading-4">Evan Lahti</h4>
+                                                <p class="paragraph">PC Gamer</p>
+                                            </div>
+                                        </div>
+                                        <img src="./src/assets/twitter.svg" alt="twitter">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <p class="paragraph">“One of my gaming highlights of the year.”</p>
+                                        </div>
+                                        <div class="card-date">
+                                            <span>June 18, 2021</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-sm-center justify-content-lg-start">
+                            <div class="col-lg-6 col-md-8 col-sm-12 offset-lg-2">
+                                <div class="card bg-dark">
+                                    <div class="card-header">
+                                        <div class="card-content">
+                                            <img class="profile-pic" src="./src/assets/person-2.png" alt="person 1">
+                                            <div class="card-content__text">
+                                                <h4 class="heading-4">Jada Griffin</h4>
+                                                <p class="paragraph">Nerdreactor</p>
+                                            </div>
+                                        </div>
+                                        <img src="./src/assets/twitter.svg" alt="twitter">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <p class="paragraph">“The next big thing in the world of streaming and
+                                                survival games.”
+                                            </p>
+                                        </div>
+                                        <div class="card-date">
+                                            <span>July 10, 2021</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-sm-center justify-content-lg-start">
+                            <div class="col-lg-6 col-md-8 col-sm-12 offset-lg-4">
+                                <div class="card bg-dark">
+                                    <div class="card-header">
+                                        <div class="card-content">
+                                            <img class="profile-pic" src="./src/assets/person-3.png" alt="person 1">
+                                            <div class="card-content__text">
+                                                <h4 class="heading-4">Aaron Williams</h4>
+                                                <p class="paragraph">Uproxx</p>
+                                            </div>
+                                        </div>
+                                        <img src="./src/assets/twitter.svg" alt="twitter">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <p class="paragraph">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is
+                                                Ridiculous.”
+                                            </p>
+                                        </div>
+                                        <div class="card-date">
+                                            <span>December 24, 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- End Top Scores -->
+
+
+        <!-- Start Newsletter  -->
+        <article class="newsletter newsletter-bg" id="contact">
+            <div class="container container-newsletter">
+                <div class="row">
+                    <div class="newsletter-left col-lg-5">
+                        <img src="./src/assets/newsletter-img.png" alt="newsletter-img">
+                    </div>
+
+                    <div class="newsletter-right col-lg-6 col-12 offset-lg-1">
+                        <h5 class="heading-5">
+                            Want to stay in <br> touch?
+                        </h5>
+
+                        <h2 class="heading-2">
+                            NEWSLETTER SUBSCRIBE
+                        </h2>
+
+                        <p class="paragraph">
+                            In order to start receiving our news, all you have to do is enter your email
+                            address. Everything else will be taken care of by us. We will send you emails
+                            containing information about game. We don’t spam.
+                        </p>
+
+                        <div>
+                            <form class="row">
+                                <div class="col-lg-7">
+                                    <label class="visually-hidden" for="email">email</label>
+                                    <input type="text" class="form-control bg-dark" id="email"
+                                        placeholder="youremail@binar.co.id" />
+                                    <p class="paragraph">Your email address</p>
+                                </div>
+                                <div class="col-lg-5">
+                                    <button class="w-100 h-100">
+                                        Subscribe Now
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- End Newsletter -->
+    </main>
+    <!-- End Main -->
+
+
+    <!-- Start Footer -->
+    <footer class="footer footer-bg" id="about">
+        <div class="container container-footer">
+            <div class="footer-top">
+                <ul class="col-lg-11 col-12 offset-lg-1">
+                    <div class="col-lg-8 col-12">
+                        <div class="col-lg-6 col-md-6 col-12 nested-first">
+                            <li>
+                                <a href="#home">
+                                    MAIN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#work">
+                                    GAME FEATURES
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 nested-second">
+                            <li>
+                                <a href="#system">
+                                    SYSTEM REQUIREMENTS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#topscores">
+                                    QOUTES
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <li>
+                            <a href="https://www.facebook.com/">
+                                <img src="./src/assets/facebook.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/">
+                                <img src="./src/assets/twitter-2.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/">
+                                <img src="./src/assets/youtube.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitch.tv/">
+                                <img src="./src/assets/twitch.svg">
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+
+                <hr class="w-100">
+            </div>
+
+            <div class="footer-bottom">
+                <p class="paragraph">© 2018 Your Games, Inc. All Rights Reserved</p>
+                <div>
+                    <a href="#home]">PRIVACY POLICY</a>
+                    <p>|</p>
+                    <a href="#home">TERMS OF SERVICE</a>
+                    <p>|</p>
+                    <a href="#home">CODE OF CONDUCT</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
